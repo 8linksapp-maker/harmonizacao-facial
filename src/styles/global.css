@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Poppins self-hosted (latin subset) — sem render-blocking do Google Fonts */
+@font-face { font-family: 'Poppins'; font-style: normal; font-weight: 300; font-display: swap; src: url('/fonts/poppins-300.woff2') format('woff2'); }
+@font-face { font-family: 'Poppins'; font-style: normal; font-weight: 400; font-display: swap; src: url('/fonts/poppins-400.woff2') format('woff2'); }
+@font-face { font-family: 'Poppins'; font-style: normal; font-weight: 500; font-display: swap; src: url('/fonts/poppins-500.woff2') format('woff2'); }
+@font-face { font-family: 'Poppins'; font-style: normal; font-weight: 600; font-display: swap; src: url('/fonts/poppins-600.woff2') format('woff2'); }
+@font-face { font-family: 'Poppins'; font-style: normal; font-weight: 700; font-display: swap; src: url('/fonts/poppins-700.woff2') format('woff2'); }
+@font-face { font-family: 'Poppins'; font-style: normal; font-weight: 800; font-display: swap; src: url('/fonts/poppins-800.woff2') format('woff2'); }
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: var(--font-body);
+    @apply bg-bg text-ink-muted antialiased;
+  }
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    @apply text-ink font-semibold tracking-tight;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    * { animation: none !important; transition: none !important; }
+  }
+}
+
+@layer components {
+  .container-x { @apply max-w-container mx-auto px-5 md:px-8; }
+  .section { @apply py-16 md:py-24; }
+  .eyebrow { @apply inline-block text-accent-strong font-semibold text-sm uppercase tracking-wider mb-3; }
+  .btn { @apply inline-flex items-center justify-center gap-2 rounded-full font-medium px-6 py-3 min-h-[44px] transition; }
+  .btn-accent { @apply btn bg-accent text-accent-ink hover:brightness-95; }
+  .btn-primary { @apply btn bg-primary text-white hover:brightness-125; }
+  .btn-ghost { @apply btn border border-border text-ink hover:border-primary; }
+  .card { @apply bg-surface border border-border rounded-2xl; }
+  .ic { @apply inline-grid place-items-center w-12 h-12 rounded-xl bg-soft text-secondary shrink-0; }
+  .prose-clinic { @apply text-ink-muted leading-relaxed text-lg; }
+  .prose-clinic h2 { @apply text-ink text-2xl font-display font-semibold mt-10 mb-3; }
+  .prose-clinic h3 { @apply text-ink text-xl font-display font-semibold mt-8 mb-2; }
+  .prose-clinic p { @apply my-4; }
+  .prose-clinic ul { @apply my-4 pl-5 list-disc space-y-1; }
+  .prose-clinic ol { @apply my-4 pl-5 list-decimal space-y-1; }
+  .prose-clinic a { @apply text-primary underline underline-offset-2 hover:text-secondary; }
+  .prose-clinic blockquote { @apply border-l-4 border-accent pl-4 italic my-6 text-ink; }
+  .prose-clinic strong { @apply text-ink font-semibold; }
+}

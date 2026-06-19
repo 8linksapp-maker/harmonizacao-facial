@@ -1,0 +1,25 @@
+{
+  "name": "Harmonização Facial SP",
+  "segmento": "Harmonização facial",
+  "schemaType": "MedicalBusiness",
+  "postUrlPrefix": "",
+  "description": "Clínica de harmonização facial em São Paulo: toxina botulínica, preenchimento labial e facial, bioestimulador de colágeno, rinomodelação e contorno de mandíbula com avaliação individualizada. Agende sua avaliação.",
+  "ctaLabel": "Agendar avaliação",
+  "phone": "(11) 0000-0000",
+  "whatsapp": "5511000000000",
+  "email": "contato@harmonizacaofacialsp.com.br",
+  "address": "Jardins — São Paulo, SP",
+  "hours": "Seg a Sex, 9h às 19h • Sáb, 9h às 13h",
+  "social": { "instagram": "#", "facebook": "#", "youtube": "#" },
+  "nap": {
+    "streetAddress": "Al. Santos, 0000 — conj. 00",
+    "addressLocality": "São Paulo",
+    "addressRegion": "SP",
+    "postalCode": "01419-000",
+    "country": "BR",
+    "latitude": -23.5662,
+    "longitude": -46.6536,
+    "priceRange": "$$$",
+    "mapEmbed": "https://www.google.com/maps?q=Jardins+S%C3%A3o+Paulo+SP&output=embed"
+  }
+}

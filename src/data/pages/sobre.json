@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "title": "Sobre a clínica — Harmonização Facial SP",
+    "description": "Clínica de harmonização facial em São Paulo com atendimento individualizado e foco em resultado natural. Conheça nossa história e nossos valores."
+  },
+  "blocks": [
+    { "type": "pageHeader", "props": {
+      "eyebrow": "Sobre a clínica",
+      "title": "Harmonização facial com quem valoriza o natural.",
+      "lead": "Atendimento individualizado em São Paulo, com avaliação detalhada antes de cada procedimento.",
+      "breadcrumb": [ { "label": "Início", "href": "/" }, { "label": "Sobre", "href": "/sobre" } ]
+    }},
+    { "type": "sobre", "props": {
+      "image": "/images/about.jpg",
+      "badge": "Atendimento individualizado",
+      "title": "Resultados naturais começam com um bom planejamento.",
+      "lead": "Cada rosto é único. Por isso avaliamos suas proporções e seus objetivos antes de indicar qualquer procedimento.",
+      "benefits": [
+        "Avaliação individual antes de cada procedimento",
+        "Foco em resultado natural e proporcional",
+        "Produtos de procedência e técnica segura",
+        "Ambiente reservado e atendimento com hora marcada"
+      ],
+      "cta": { "label": "Agendar avaliação", "href": "#contato" }
+    }},
+    { "type": "numeros", "props": {
+      "stats": [
+        { "value": "10+", "label": "Anos de experiência" },
+        { "value": "5mil+", "label": "Procedimentos realizados" },
+        { "value": "9", "label": "Procedimentos de harmonização" },
+        { "value": "98%", "label": "Pacientes satisfeitos" }
+      ]
+    }},
+    { "type": "comoFunciona", "props": {
+      "eyebrow": "Como funciona",
+      "title": "Três passos do primeiro contato ao resultado.",
+      "steps": [
+        { "n": "01", "title": "Avaliação", "text": "Entendemos o seu rosto, seus objetivos e o que pode ser feito." },
+        { "n": "02", "title": "Planejamento", "text": "Montamos um plano personalizado com procedimentos e prioridades." },
+        { "n": "03", "title": "Procedimento", "text": "Realizamos com técnica e acompanhamos o seu resultado." }
+      ]
+    }},
+    { "type": "depoimentos", "props": {
+      "eyebrow": "Depoimentos",
+      "title": "O que nossas pacientes dizem.",
+      "rating": { "score": "4,9", "label": "média de satisfação" },
+      "items": [
+        { "quote": "Fiz preenchimento labial e ficou super natural, exatamente como eu queria.", "name": "Carolina M.", "role": "Paciente — Jardins" },
+        { "quote": "O resultado da toxina ficou leve e ninguém percebeu que eu fiz. Amei.", "name": "Patrícia S.", "role": "Paciente — Moema" },
+        { "quote": "Atendimento atencioso e a avaliação foi muito honesta sobre o que eu precisava.", "name": "Juliana R.", "role": "Paciente — Itaim Bibi" }
+      ]
+    }},
+    { "type": "ctaContato", "props": {
+      "eyebrow": "Fale com a gente",
+      "title": "Agende sua avaliação sem compromisso.",
+      "services": ["Toxina botulínica (Botox)", "Preenchimento labial", "Preenchimento facial", "Bioestimulador de colágeno", "Rinomodelação", "Preenchimento de olheiras", "Contorno de mandíbula", "Skinbooster", "Fios de sustentação"]
+    }}
+  ]
+}

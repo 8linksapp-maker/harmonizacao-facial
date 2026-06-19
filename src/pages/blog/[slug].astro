@@ -1,0 +1,17 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PostArticle from '../../components/PostArticle.astro';
+import { getCollection } from 'astro:content';
+import { BLOG_BASE } from '../../lib/postUrl';
+import site from '../../data/siteConfig.json';
+
+export async function getStaticPaths() {
+  if (BLOG_BASE !== '/blog') return []; // só gera quando o prefixo é 'blog'
+  const posts = await getCollection('blog', ({ data }) => !data.draft);
+  return posts.map((post) => ({ params: { slug: post.id }, props: { post } }));
+}
+const { post } = Astro.props;
+---
+<BaseLayout title={`${post.data.title} — ${site.name}`} description={post.data.description} ogType="article">
+  <PostArticle post={post} />
+</BaseLayout>

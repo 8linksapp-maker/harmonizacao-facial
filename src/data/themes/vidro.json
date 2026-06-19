@@ -1,0 +1,17 @@
+{
+  "name": "Vidro",
+  "colors": {
+    "bg": "#FFFFFF",
+    "surface": "#FFFFFF",
+    "soft": "#ECF4F9",
+    "ink": "#0E2C3D",
+    "ink-muted": "#4C6677",
+    "primary": "#0E2C3D",
+    "secondary": "#2585B0",
+    "accent": "#16A6BC",
+    "accent-ink": "#06222B",
+    "accent-strong": "#0A5F68",
+    "border": "#DCE9F1"
+  },
+  "fonts": { "display": "'Poppins', sans-serif", "body": "'Poppins', sans-serif" }
+}

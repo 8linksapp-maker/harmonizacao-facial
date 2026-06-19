@@ -1,0 +1,90 @@
+[
+  {
+    "slug": "jardins",
+    "nome": "Jardins",
+    "prep": "nos",
+    "regiao": "Região central de São Paulo",
+    "bairrosVizinhos": [
+      "Cerqueira César",
+      "Bela Vista",
+      "Pinheiros"
+    ],
+    "referenciaLocal": "Atendemos pacientes de todos os Jardins, da Alameda Santos à região da Oscar Freire, com avaliação individualizada e procedimentos de harmonização facial em ambiente reservado.",
+    "faq": [
+      {
+        "q": "A avaliação de harmonização facial nos Jardins é cobrada?",
+        "a": "A primeira avaliação é dedicada a entender o seu rosto e os seus objetivos. Os valores e a forma de pagamento são apresentados de forma transparente nesse atendimento, antes de qualquer procedimento."
+      },
+      {
+        "q": "Vocês atendem com hora marcada nos Jardins?",
+        "a": "Sim. Todo o atendimento é por agendamento, para garantir tempo dedicado à sua avaliação e privacidade durante o procedimento."
+      }
+    ]
+  },
+  {
+    "slug": "itaim-bibi",
+    "nome": "Itaim Bibi",
+    "prep": "no",
+    "regiao": "Zona Oeste de São Paulo",
+    "bairrosVizinhos": [
+      "Vila Olímpia",
+      "Vila Nova Conceição",
+      "Moema"
+    ],
+    "referenciaLocal": "Atendemos quem vive ou trabalha no Itaim Bibi, com agenda flexível para a rotina de quem está na região da Faria Lima e da Avenida Brigadeiro Faria Lima.",
+    "faq": [
+      {
+        "q": "Dá para conciliar o procedimento com o horário de trabalho no Itaim Bibi?",
+        "a": "Sim. Trabalhamos com agenda flexível e a maioria dos procedimentos permite voltar à rotina no mesmo dia, com cuidados simples."
+      },
+      {
+        "q": "Quem aplica os procedimentos de harmonização facial?",
+        "a": "Todos os procedimentos são realizados por profissional habilitado, após avaliação individual do seu rosto e dos seus objetivos."
+      }
+    ]
+  },
+  {
+    "slug": "moema",
+    "nome": "Moema",
+    "prep": "em",
+    "regiao": "Zona Sul de São Paulo",
+    "bairrosVizinhos": [
+      "Itaim Bibi",
+      "Vila Mariana",
+      "Indianópolis"
+    ],
+    "referenciaLocal": "Recebemos pacientes de Moema e região, próximos ao Parque Ibirapuera e à Avenida Ibirapuera, com avaliação detalhada e plano de tratamento personalizado.",
+    "faq": [
+      {
+        "q": "Os resultados da harmonização facial são naturais?",
+        "a": "Esse é o nosso compromisso. Planejamos cada procedimento respeitando as proporções do seu rosto, para realçar os traços sem deixar a aparência artificial."
+      },
+      {
+        "q": "Preciso de mais de uma sessão?",
+        "a": "Depende do procedimento. Alguns têm resultado imediato e outros, como os bioestimuladores, são feitos em sessões. Definimos isso na avaliação em Moema."
+      }
+    ]
+  },
+  {
+    "slug": "pinheiros",
+    "nome": "Pinheiros",
+    "prep": "em",
+    "regiao": "Zona Oeste de São Paulo",
+    "bairrosVizinhos": [
+      "Vila Madalena",
+      "Jardins",
+      "Itaim Bibi"
+    ],
+    "referenciaLocal": "Atendemos Pinheiros e a Vila Madalena, com avaliação cuidadosa e procedimentos de harmonização facial em ambiente acolhedor e reservado.",
+    "faq": [
+      {
+        "q": "Como funciona a primeira consulta em Pinheiros?",
+        "a": "Na primeira consulta avaliamos o seu rosto, ouvimos os seus objetivos e montamos um plano de tratamento personalizado, explicando cada procedimento indicado."
+      },
+      {
+        "q": "Os procedimentos doem?",
+        "a": "Usamos anestésico tópico e técnicas que reduzem o desconforto. A maioria dos pacientes relata sentir muito pouco durante a aplicação."
+      }
+    ]
+  }
+]

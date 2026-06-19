@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "title": "Nossa equipe — Harmonização Facial SP",
+    "description": "Profissionais dedicados à harmonização facial em São Paulo, com avaliação cuidadosa e técnica segura. Conheça a equipe."
+  },
+  "blocks": [
+    { "type": "pageHeader", "props": {
+      "eyebrow": "Nossa equipe",
+      "title": "Profissionais dedicados ao seu resultado.",
+      "lead": "Avaliação, planejamento e procedimentos realizados com atenção a cada detalhe.",
+      "breadcrumb": [ { "label": "Início", "href": "/" }, { "label": "Equipe", "href": "/equipe" } ]
+    }},
+    { "type": "equipe", "props": {
+      "members": [
+        { "name": "Responsável técnica", "role": "Harmonização facial", "photo": "/images/team-1.jpg" },
+        { "name": "Avaliação facial", "role": "Planejamento", "photo": "/images/team-2.jpg" },
+        { "name": "Procedimentos injetáveis", "role": "Aplicação", "photo": "/images/team-3.jpg" },
+        { "name": "Atendimento", "role": "Agendamento e suporte", "photo": "/images/team-4.jpg" }
+      ]
+    }},
+    { "type": "numeros", "props": {
+      "stats": [
+        { "value": "10+", "label": "Anos de experiência" },
+        { "value": "5mil+", "label": "Procedimentos realizados" },
+        { "value": "9", "label": "Procedimentos de harmonização" },
+        { "value": "98%", "label": "Pacientes satisfeitos" }
+      ]
+    }},
+    { "type": "ctaContato", "props": {
+      "eyebrow": "Fale com a gente",
+      "title": "Agende sua avaliação sem compromisso.",
+      "services": ["Toxina botulínica (Botox)", "Preenchimento labial", "Preenchimento facial", "Bioestimulador de colágeno", "Rinomodelação", "Preenchimento de olheiras", "Contorno de mandíbula", "Skinbooster", "Fios de sustentação"]
+    }}
+  ]
+}

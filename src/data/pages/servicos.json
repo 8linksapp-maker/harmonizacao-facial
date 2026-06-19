@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "title": "Procedimentos de harmonização facial — Harmonização Facial SP",
+    "description": "Toxina botulínica, preenchimento labial e facial, bioestimulador de colágeno, rinomodelação, contorno de mandíbula e mais. Conheça os procedimentos em São Paulo."
+  },
+  "blocks": [
+    { "type": "pageHeader", "props": {
+      "eyebrow": "Nossos procedimentos",
+      "title": "Harmonização facial sob medida para o seu rosto.",
+      "lead": "Do preenchimento à toxina botulínica, planejamos cada procedimento com foco no resultado natural.",
+      "breadcrumb": [ { "label": "Início", "href": "/" }, { "label": "Procedimentos", "href": "/servicos" } ]
+    }},
+    { "type": "servicos", "props": {
+      "fromData": true,
+      "cta": { "label": "Agendar avaliação", "href": "/agendar" }
+    }},
+    { "type": "porqueEscolher", "props": {
+      "eyebrow": "Por que nos escolher",
+      "title": "Técnica segura e foco no natural.",
+      "image": "/images/why.jpg",
+      "features": [
+        { "title": "Avaliação individual", "text": "Plano de tratamento pensado para o seu rosto." },
+        { "title": "Resultado natural", "text": "Realçamos seus traços, sem exageros." },
+        { "title": "Avaliação sem compromisso", "text": "Você entende tudo antes de decidir." },
+        { "title": "Atendimento ágil", "text": "Agenda flexível em São Paulo." },
+        { "title": "Pacientes satisfeitas", "text": "Milhares de procedimentos realizados." },
+        { "title": "Produtos de procedência", "text": "Ácido hialurônico e ativos de qualidade." }
+      ]
+    }},
+    { "type": "ctaContato", "props": {
+      "eyebrow": "Fale com a gente",
+      "title": "Agende sua avaliação sem compromisso.",
+      "services": ["Toxina botulínica (Botox)", "Preenchimento labial", "Preenchimento facial", "Bioestimulador de colágeno", "Rinomodelação", "Preenchimento de olheiras", "Contorno de mandíbula", "Skinbooster", "Fios de sustentação"]
+    }}
+  ]
+}

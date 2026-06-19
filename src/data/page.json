@@ -1,0 +1,276 @@
+{
+  "blocks": [
+    {
+      "type": "hero",
+      "props": {
+        "eyebrow": "Harmonização facial em São Paulo",
+        "title": "Realce sua beleza natural com harmonização facial.",
+        "lead": "Toxina botulínica, preenchimento labial e facial, bioestimulador de colágeno, rinomodelação e contorno de mandíbula. Avaliação individualizada nos Jardins, Itaim Bibi, Moema e Pinheiros.",
+        "cta": {
+          "label": "Agendar avaliação",
+          "href": "#contato"
+        },
+        "rating": {
+          "score": "5,0",
+          "count": "320+ avaliações"
+        },
+        "doctor": {
+          "name": "Profissional responsável",
+          "role": "Harmonização facial",
+          "photo": "/images/doctor.jpg"
+        },
+        "contact": {
+          "phone": "(11) 0000-0000",
+          "hours": "Seg a Sex, 9h às 19h • Sáb até 13h"
+        }
+      }
+    },
+    {
+      "type": "sobre",
+      "props": {
+        "image": "/images/about.jpg",
+        "badge": "Atendimento individualizado em São Paulo",
+        "eyebrow": "Sobre a clínica",
+        "title": "Resultados naturais, planejados para o seu rosto.",
+        "lead": "Cada procedimento começa por uma avaliação completa da face, para realçar seus traços com proporção e segurança — nunca com excessos.",
+        "benefits": [
+          "Avaliação individual antes de qualquer procedimento",
+          "Foco em resultado natural e proporcional",
+          "Produtos de procedência e técnica segura",
+          "Ambiente reservado e atendimento com hora marcada"
+        ],
+        "cta": {
+          "label": "Conheça a clínica",
+          "href": "/sobre"
+        }
+      }
+    },
+    {
+      "type": "servicos",
+      "props": {
+        "eyebrow": "Nossos procedimentos",
+        "title": "Harmonização facial sob medida.",
+        "items": [
+          {
+            "title": "Toxina botulínica (Botox)",
+            "text": "Suaviza rugas de expressão mantendo a naturalidade."
+          },
+          {
+            "title": "Preenchimento labial",
+            "text": "Volume e contorno dos lábios com ácido hialurônico."
+          },
+          {
+            "title": "Bioestimulador de colágeno",
+            "text": "Mais firmeza tratando a flacidez de forma natural."
+          },
+          {
+            "title": "Rinomodelação",
+            "text": "Correção do nariz sem cirurgia, com resultado imediato."
+          }
+        ],
+        "cta": {
+          "label": "Ver todos os procedimentos",
+          "href": "/servicos"
+        }
+      }
+    },
+    {
+      "type": "numeros",
+      "props": {
+        "stats": [
+          {
+            "value": "10+",
+            "label": "Anos de experiência"
+          },
+          {
+            "value": "5mil+",
+            "label": "Procedimentos realizados"
+          },
+          {
+            "value": "30min",
+            "label": "Maioria dos procedimentos"
+          },
+          {
+            "value": "98%",
+            "label": "Pacientes satisfeitos"
+          }
+        ]
+      }
+    },
+    {
+      "type": "porqueEscolher",
+      "props": {
+        "eyebrow": "Por que nos escolher",
+        "title": "Beleza natural começa com um bom planejamento.",
+        "image": "/images/why.jpg",
+        "features": [
+          {
+            "title": "Avaliação individual",
+            "text": "Plano de tratamento pensado para o seu rosto."
+          },
+          {
+            "title": "Resultado natural",
+            "text": "Realçamos seus traços, sem exageros."
+          },
+          {
+            "title": "Produtos de procedência",
+            "text": "Ácido hialurônico e ativos de qualidade."
+          },
+          {
+            "title": "Técnica segura",
+            "text": "Procedimentos com protocolo e cuidado."
+          },
+          {
+            "title": "Ambiente reservado",
+            "text": "Atendimento com hora marcada e privacidade."
+          },
+          {
+            "title": "Acompanhamento",
+            "text": "Orientações e retorno após o procedimento."
+          }
+        ]
+      }
+    },
+    {
+      "type": "comoFunciona",
+      "props": {
+        "eyebrow": "Como funciona",
+        "title": "Três passos do primeiro contato ao resultado.",
+        "steps": [
+          {
+            "n": "01",
+            "title": "Avaliação",
+            "text": "Entendemos o seu rosto, seus objetivos e o que pode ser feito."
+          },
+          {
+            "n": "02",
+            "title": "Planejamento",
+            "text": "Montamos um plano personalizado, com procedimentos e prioridades."
+          },
+          {
+            "n": "03",
+            "title": "Procedimento",
+            "text": "Realizamos com técnica e acompanhamos o seu resultado."
+          }
+        ]
+      }
+    },
+    {
+      "type": "equipe",
+      "props": {
+        "eyebrow": "Nossa equipe",
+        "title": "Profissionais dedicados ao seu resultado.",
+        "members": [
+          {
+            "name": "Responsável técnica",
+            "role": "Harmonização facial",
+            "photo": "/images/team-1.jpg"
+          },
+          {
+            "name": "Avaliação facial",
+            "role": "Planejamento",
+            "photo": "/images/team-2.jpg"
+          },
+          {
+            "name": "Procedimentos injetáveis",
+            "role": "Aplicação",
+            "photo": "/images/team-3.jpg"
+          },
+          {
+            "name": "Atendimento",
+            "role": "Agendamento e suporte",
+            "photo": "/images/team-4.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "depoimentos",
+      "props": {
+        "eyebrow": "Depoimentos",
+        "title": "O que nossas pacientes dizem.",
+        "rating": {
+          "score": "4,9",
+          "label": "média de avaliações"
+        },
+        "items": [
+          {
+            "quote": "Fiz preenchimento labial e ficou super natural, exatamente como eu queria.",
+            "name": "Carolina M.",
+            "role": "Jardins"
+          },
+          {
+            "quote": "O resultado da toxina ficou leve e ninguém percebeu que eu fiz. Amei.",
+            "name": "Patrícia S.",
+            "role": "Moema"
+          },
+          {
+            "quote": "Atendimento atencioso e a avaliação foi muito honesta sobre o que eu precisava.",
+            "name": "Juliana R.",
+            "role": "Itaim Bibi"
+          }
+        ]
+      }
+    },
+    {
+      "type": "antesDepois",
+      "props": {
+        "eyebrow": "Resultados",
+        "title": "Antes e depois.",
+        "items": [
+          {
+            "label": "Preenchimento labial",
+            "before": "/images/before-1.jpg",
+            "after": "/images/after-1.jpg"
+          },
+          {
+            "label": "Contorno de mandíbula",
+            "before": "/images/before-2.jpg",
+            "after": "/images/after-2.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "novidades",
+      "props": {
+        "eyebrow": "Novidades",
+        "title": "Conteúdos sobre harmonização facial.",
+        "items": [
+          {
+            "title": "Preenchimento labial fica natural?",
+            "excerpt": "Como escolher o volume certo para o seu rosto.",
+            "image": "/images/post-1.jpg",
+            "href": "#"
+          },
+          {
+            "title": "Botox: a partir de que idade",
+            "excerpt": "Entenda quando a toxina é indicada.",
+            "image": "/images/post-2.jpg",
+            "href": "#"
+          },
+          {
+            "title": "Bioestimulador x preenchimento",
+            "excerpt": "Qual a diferença e quando usar cada um.",
+            "image": "/images/post-3.jpg",
+            "href": "#"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ctaContato",
+      "props": {
+        "eyebrow": "Fale com a gente",
+        "title": "Agende sua avaliação de harmonização facial.",
+        "services": [
+          "Toxina botulínica (Botox)",
+          "Preenchimento labial",
+          "Preenchimento facial",
+          "Bioestimulador de colágeno",
+          "Rinomodelação"
+        ]
+      }
+    }
+  ]
+}
